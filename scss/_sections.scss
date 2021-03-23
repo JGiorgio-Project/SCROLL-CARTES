@@ -1,0 +1,102 @@
+.section {
+  width: 100%;
+  height: 100vh;
+  @include centerFlex;
+  font-size: 2em;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 1px 8px 0px rgba(0,0,0,0.75);
+}
+@media (max-width: 992px) {
+  .section {
+    font-size: 1.1em;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+.section_1 {
+  z-index: 5;
+  background-color: $color-1;
+  background-image: url("../assets/img/skulls.png");
+  background-position: bottom;
+  background-attachment: scroll;
+}
+.section_2 {
+  height: 200vh;
+  z-index: 4;
+  background-color: $color-2;
+  background-image: url("../assets/img/diagmonds-light.png");
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.section_3 {
+  height: 200vh;
+  z-index: 3;
+  background-color: $color-4;
+  background-image: url("../assets/img/shattered-dark.png");
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.section_4 {
+  z-index: 2;
+  background-color: $color-2;
+  background-image: url("../assets/img/inflicted.png");
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.backgroundScroll {
+  background-attachment: scroll;
+}
+
+.section_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+    margin-bottom: 5%;
+  }
+}
+.section_content_1 {
+
+}
+.section_content_2 {
+
+}
+.section_content_3 {
+
+}
+.section_content_4 {
+
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.black {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.black_section_2 {
+  opacity: 0.7;
+}
+.black_section_3 {
+  opacity: 0.7;
+}
+.black_section_4 {
+  opacity: 0.7;
+}
