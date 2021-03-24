@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7520741c-e581-4b61-a8a7-0d8ac462b491" name="Default Changelist" comment="commit 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/elements.js" afterDir="false" />
+    <list default="true" id="7520741c-e581-4b61-a8a7-0d8ac462b491" name="Default Changelist" comment="commit 2">
       <change beforePath="$PROJECT_DIR$/scripts/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
       <workItem from="1613590887294" duration="7590000" />
       <workItem from="1613637262411" duration="16363000" />
       <workItem from="1614181918057" duration="698000" />
-      <workItem from="1616531672183" duration="1906000" />
+      <workItem from="1616531672183" duration="1964000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1616604850725</created>
@@ -72,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616604850725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 2">
+      <created>1616605023966</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616605023966</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 1" />
+    <MESSAGE value="commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
   </component>
 </project>
