@@ -41,7 +41,8 @@ document.addEventListener('scroll', (event) =>{
 });
 
 /**
- * Fonction permet de gere l'opacité d'un élément.
+ * Fonction permet de calculer l'opacité en fonction du scroll.
+ * Elle retourne une valeur d'opcité.
  * @param debut
  * @param fin
  * @param valMin
