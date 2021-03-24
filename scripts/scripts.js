@@ -1,10 +1,11 @@
-/*============  ============*/
+/*============ Récupération des dimensions ============*/
 let hauteurVisible = document.body.clientHeight;
 let hauteurSection1 = section1.clientHeight;
 let hauteurSection2 = section2.clientHeight;
 let hauteurSection3 = section3.clientHeight;
 let hauteurSection4 = section4.clientHeight;
 
+/*============ EventListener sur le document ============*/
 document.addEventListener('scroll', (event) =>{
     if (window.scrollY >= hauteurVisible){
         section2.classList.remove('fixed')
@@ -40,6 +41,8 @@ document.addEventListener('scroll', (event) =>{
 
 });
 
+
+/*============ Fonctions utiles ============*/
 /**
  * Fonction permet de calculer l'opacité en fonction du scroll.
  * Elle retourne une valeur d'opcité.
